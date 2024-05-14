@@ -19,7 +19,7 @@ public class Main {
         double[] notas = { 200.00, 100.00, 50.00, 20.00, 5.00, 2.00, 1.00 };
         int[] quantidade = new int[notas.length];
 
-        double troco = compra - pagamento;
+        double troco = pagamento - compra;
 
         System.out.println("Nome: " + nome);
         System.out.println("Valor Total da Compra R$: " + compra);
